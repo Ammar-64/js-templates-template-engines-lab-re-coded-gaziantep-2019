@@ -36,10 +36,14 @@
     <script id="comments-template" type="text/x-lodash-template">
       <form onsubmit="postComment(); return false;">
         Name: <input type="text" id="commenterName"><br>
-        comment: <input type="textarea" id="commentbody"><br>
+        comment: <input type="textarea" id="commentBody"><br>
         <input type="submit">
       </form>
       <div id="comments"></div>
     </script>
+    <div id="comment">
+      <%= commentBody %>
+      <footer><%= commenterName %></footer>
+    </div>
   </body>
 </html>
