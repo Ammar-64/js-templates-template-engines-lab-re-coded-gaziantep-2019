@@ -21,7 +21,7 @@ function createPost(){
 }
 
 function postComment(){
-  let commenterName = document.getElementById('commenterName').value;
+  let commenterName = document.getElementById('commenterName');
   let commentBody = document.getElementById('commentBody').value;
 
   let commentTemplate = document.getElementById('comments-template').innerHTML;
