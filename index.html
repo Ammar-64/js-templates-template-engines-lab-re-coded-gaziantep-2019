@@ -35,17 +35,17 @@
       </article>
     </script>
     <script id="comments-template" type="text/x-lodash-template">
-    <div id="comments">
-      <form onsubmit="postComment();return false;">
-        Name: <input type="text" id="commenterName"><br>
-        comment: <input type="textarea" id="commentBody"><br>
-        <input type="submit">
-      </form>
+      <div id="comments">
+        <form onsubmit="postComment();return false;">
+          Name: <input type="text" id="commenterName"><br>
+          comment: <input type="textarea" id="commentBody"><br>
+          <input type="submit">
+        </form>
       </div>
     </script>
     <script id="comment-template" type="text/x-lodash-template">
       <div id="comment">
-        <%= commentBody %>
+        <p><%= commentBody %></p>
         <footer><%= commenterName %></footer>
       </div>
     </script>
