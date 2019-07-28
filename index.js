@@ -28,7 +28,7 @@ function postComment(){
 
   let commentFn = _.template(commentTemplate);
 
-  let commentsDiv = document.querySelector('comment');
+  let commentsDiv = document.querySelector('comments');
   let templateHTML = commentFn({'commentBody': commentBody, 'commenterName': commenterName,});
 
   commentsDiv.innerHTML += templateHTML;
