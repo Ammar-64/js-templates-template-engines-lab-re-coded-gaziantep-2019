@@ -21,14 +21,9 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script>mocha.setup('bdd');</script>
     <script src="test/index-test.js"></script>
-    <script id="page-template" type="text/x-lodash-template">
-      <div class= "page">
-        <div id="sidebar">
-          <div id="post">
-            <%= post %>
-          </div>
-        </div>
-      </div>
+    <script id="page-template" type="text/x-lodash-template">    
+        <div id="sidebar"></div>
+        <div id="post"></div>
     </script>
     <script id="post-template" type="text/x-lodash-template">
       <article>
