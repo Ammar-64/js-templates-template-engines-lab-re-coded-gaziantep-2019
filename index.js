@@ -17,5 +17,5 @@ function createPost(){
 
   let comments = document.querySelector('comments-template');
   main.innerHTML += comments;
-  
+
 }
