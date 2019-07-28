@@ -31,5 +31,5 @@ function postComment(){
   let commentsDiv = document.querySelector('comments');
   let commentTemplateHTML = commentFn({'commentBody': commentBody, 'commenterName': commenterName,});
 
-  commentsDiv.innerHTML += templateHTML;
+  commentsDiv.innerHTML += commentTemplateHTML;
 }
